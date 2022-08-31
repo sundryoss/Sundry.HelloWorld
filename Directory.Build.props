@@ -1,0 +1,20 @@
+<Project>
+    <PropertyGroup>
+        <Title>Sundry.Helloworld</Title>
+        <Authors>SunDryOSS Contributors</Authors>
+        <Description>Yet another HelloWorld</Description>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>hello,nuke</PackageTags>
+        <RepositoryUrl>https://github.com/sundryoss/Sundry.Helloworld</RepositoryUrl>
+        <PackageProjectUrl>https://anktsrkr.github.io/</PackageProjectUrl>
+        <TargetFramework>net6.0</TargetFramework>
+        <LangVersion>10</LangVersion>
+        <RootNamespace>Sundry.Helloworld</RootNamespace>
+        <PackageIcon>icon.png</PackageIcon>
+    </PropertyGroup>
+    <ItemGroup>
+        <Content Include="$(MSBuildThisFileDirectory)icon.png" Pack="true" PackagePath="/">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+</Project>
