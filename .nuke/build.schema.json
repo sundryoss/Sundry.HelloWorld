@@ -24,7 +24,7 @@
         },
         "Copyright": {
           "type": "string",
-          "description": "Copyright Detils"
+          "description": "Copyright Details"
         },
         "ExcludedArtifactsType": {
           "type": "string",

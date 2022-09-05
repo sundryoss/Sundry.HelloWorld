@@ -1,4 +1,9 @@
 {
   "$schema": "./build.schema.json",
-  "Solution": "Sundry.HelloWorld.sln"
+  "Solution": "Sundry.HelloWorld.sln",
+  "ArtifactsType": "*.nupkg",
+  "Copyright": "©SunDryOSS 2022",
+  "ExcludedArtifactsType": "symbols.nupkg",
+  "MyGetNugetFeed": "https://www.myget.org/F/sundryossdemo/api/v3/index.json",
+  "NugetFeed": "https://www.myget.org/F/sundryossdemo/api/v3/index.json"
 }
